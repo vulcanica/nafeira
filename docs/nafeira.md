@@ -1,20 +1,20 @@
 # na feira
 
-Na feira é uma plataforma para comercialização de produtos alimentícios de origem rural com características especificas.
+NaFeira é uma plataforma para comercialização de produtos alimentícios de origem rural com características específicas.
 
-- Uma basede produtos são fabricados localmente (Nelita e Banha)
+- Uma base de produtos são fabricados localmente (Nelita e Banha)
 - Serão introduzidos produtos de outros produtores conforme a demanda
-- A seleção do mix e gestão de pedidos à terceiros será  feita por nós
-- A operação inicial será entregar produtos de nova era ou intermediários a clientes em belo horizonte.
+- A seleção do mix e gestão de pedidos à terceiros será feita por nós
+- A operação inicial será entregar produtos de Nova Era intermediários a clientes em Belo Horizonte.
 - Inicialmente a entrega será feita em um dia fixo da semana, ou quinzenal. 
 
 # Operação
 
-O essência da plataforma é levar produtos frescos e naturais de cidades do interiror para os grandes centros.
+A essência da plataforma é levar produtos frescos e naturais de cidades do interiror para os grandes centros.
 
-A primeira rota que será estabelecida é Nova Era ~> Belo Horizonte. Produtores em cidades próximas para expandir a operação.
+A primeira rota que será estabelecida é entre Nova Era e Belo Horizonte. Integração de produtores em cidades próximas para expanção da operação.
 
-As entregas em BH serão feitas na sexta e a data limite é domingo (a definir melhor).
+As entregas serão feitas na sexta e a data limite é domingo (a definir melhor).
 
 ## Fornecedores
 
@@ -22,10 +22,10 @@ As entregas em BH serão feitas na sexta e a data limite é domingo (a definir m
 
 **Semanalmente:**
 
-- Biscoito de polvilho;
+- biscoito de polvilho;
 - pote de tempero (alho com sal e tempero verde);
 - queijo;
-- Doce de leite (quadradinhos);
+- doce de leite (quadradinhos);
 - ovo caipira.
 
 **Sazonal:**
@@ -36,8 +36,8 @@ As entregas em BH serão feitas na sexta e a data limite é domingo (a definir m
 
 ## Banha
 
-🔥 Bacon artesanal
-🔥 Costelinha defumada
-🔥 Lombo defumado
-🌭 Linguiça artesanal
-🥫 Carne na lata
+🔥 bacon artesanal
+🔥 costelinha defumada
+🔥 lombo defumado
+🌭 linguiça artesanal
+🥫 carne na lata
