@@ -127,6 +127,8 @@ export async function getCollectionsListing({
   // The first product tag covers collection thumbnails that fall back to product imagery.
   tagCollections(nodes);
   for (const node of nodes) {
+    if(node.handle ==="frontpage") continue;
+    console.log("@@@", node.title, node.handle);
     const firstProductId = node.products.edges[0]?.node.id;
     const numericId = firstProductId ? getNumericShopifyId(firstProductId) : null;
     if (numericId) {
@@ -134,7 +136,7 @@ export async function getCollectionsListing({
     }
   }
 
-  return nodes.map((node) => {
+  return nodes.filter((node) => node.handle !== "frontpage").map((node) => {
     const raw = node.image ?? node.products.edges[0]?.node.featuredImage ?? null;
     return {
       ...transformShopifyCollection(node),

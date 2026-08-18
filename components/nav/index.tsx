@@ -10,9 +10,11 @@ import { CartIcon, CartIconFallback } from "./cart";
 import { MobileMenu } from "./mobile-menu";
 import { QuickLinks } from "./quick-links";
 import { SearchModal } from "./search-modal";
+import Image from "next/image";
 
 export async function Nav({ locale }: { locale: string }) {
   const items: MenuItem[] = [
+    { id: "default-nav-shop", title: "Loja", url: "/collections/all", type: "HTTP", items: [] },
     { id: "default-nav-shop", title: "Loja", url: "/collections/all", type: "HTTP", items: [] },
   ];
 
@@ -25,7 +27,8 @@ export async function Nav({ locale }: { locale: string }) {
         <MobileMenu items={items} />
 
         <Link className="flex items-center shrink-0" href="/">
-          <span className="text-xl leading-4">{shopConfig.site.name}</span>
+          <Image src="/logo.svg" alt={shopConfig.site.name} width={200} height={65} />
+
         </Link>
 
         <QuickLinks items={items} />
