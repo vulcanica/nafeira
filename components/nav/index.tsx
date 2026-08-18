@@ -14,8 +14,11 @@ import Image from "next/image";
 
 export async function Nav({ locale }: { locale: string }) {
   const items: MenuItem[] = [
-    { id: "default-nav-shop", title: "Loja", url: "/collections/all", type: "HTTP", items: [] },
-    { id: "default-nav-shop", title: "Loja", url: "/collections/all", type: "HTTP", items: [] },
+    { id: "default-nav-shop", title: "Categorias", url: "/collections", type: "HTTP", items: [] },
+    { id: "all-nav-shop", title: "Todos", url: "/collections/all", type: "HTTP", items: [] },
+    { id: "quitandas-nav-shop", title: "Quitandas e Laticínios", url: "/collections/quitandas-e-laticinios", type: "HTTP", items: [] },
+    { id: "doces-nav-shop", title: "Doces", url: "/collections/doces", type: "HTTP", items: [] },
+    { id: "temperos-nav-shop", title: "Temperos e Acompanhamentos", url: "/collections/temperos-e-acompanhamentos", type: "HTTP", items: [] },
   ];
 
   return (
