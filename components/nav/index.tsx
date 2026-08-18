@@ -19,6 +19,7 @@ export async function Nav({ locale }: { locale: string }) {
     { id: "quitandas-nav-shop", title: "Quitandas e Laticínios", url: "/collections/quitandas-e-laticinios", type: "HTTP", items: [] },
     { id: "doces-nav-shop", title: "Doces", url: "/collections/doces", type: "HTTP", items: [] },
     { id: "temperos-nav-shop", title: "Temperos e Acompanhamentos", url: "/collections/temperos-e-acompanhamentos", type: "HTTP", items: [] },
+    { id: "defumados-nav-shop", title: "Defumados e Carnes", url: "/collections/temperos-e-defumados-e-carnes", type: "HTTP", items: [] },
   ];
 
   return (
